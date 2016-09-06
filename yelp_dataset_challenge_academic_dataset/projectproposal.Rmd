@@ -15,7 +15,7 @@ library(ggplot2)
 json_file_business <- "yelp_academic_dataset_business.json"
 json_file_review <- "yelp_academic_dataset_review.json"
 
-setwd("C:/DataIncubatorChallengeQuestions/yelp_dataset_challenge_academic_dataset/")
+setwd("C:/DataSciSideProjects/yelp_dataset_challenge_academic_dataset/")
 
 con <- file(description=json_file_review, open="r")
 con_business <- file(description=json_file_business, open="r")

@@ -2,7 +2,7 @@ library(tm)
 library(SnowballC)
 library(dplyr)
 
-setwd("C:/DataIncubatorChallengeQuestions/")
+setwd("C:/DataSciSideProjects/")
 
 loans_a <- read.csv("LoanStats3a_securev1.csv", stringsAsFactor=FALSE, skip=1)
 loans_b <- read.csv("LoanStats3b_securev1.csv", stringsAsFactor=FALSE, skip=1)
